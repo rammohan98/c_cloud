@@ -15,7 +15,7 @@ void nearfib(int num)
 		a=b;
 		b=c;
 	}
-	if(c==num)
+	if(c==num)//Here if given number is there in fibanocci series it will print True
 	{
 	 printf("true");
 	 return;
@@ -25,6 +25,7 @@ void nearfib(int num)
 	 	k=b-num;
 	 	x=num-a;
 	 }   
+	//Here if the given number is not there in the fibanocci series it will print the nearest value for given number 
 	 if(k<x)
 	 printf("%d",b);
 	 if(k>x)
