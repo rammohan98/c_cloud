@@ -12,11 +12,11 @@ int main()
 	}
 	if(s<9)
 	{
-		printf("%d",s);     
+		printf("%d",s); //Here if the result is single digit it will print    
 	}
 	else
 	{
-		while(s>9)
+		while(s>9)//Here this loop will run upto the number becomes single digit
 		{
 			n=s;
 			s=0;
